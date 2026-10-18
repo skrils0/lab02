@@ -2,11 +2,11 @@
 #include <string>
 
 int main() {
-    // Read a complete user name, including spaces.
+    // Ask the user for a name and accept spaces between words.
     std::string name;
     std::cout << "Enter your name: ";
     std::getline(std::cin, name);
-    // Print a personalized greeting.
+    // Display a greeting that includes the entered name.
     std::cout << "Hello world from @" << name << std::endl;
     return 0;
 }
