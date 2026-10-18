@@ -1,11 +1,12 @@
 #include <iostream>
 #include <string>
-using namespace std;
 
 int main() {
-    string name;
-    cout << "Enter your name: ";
-    getline(cin, name);
-    cout << "Hello world from @" << name << endl;
+    // Read a complete user name, including spaces.
+    std::string name;
+    std::cout << "Enter your name: ";
+    std::getline(std::cin, name);
+    // Print a personalized greeting.
+    std::cout << "Hello world from @" << name << std::endl;
     return 0;
 }
