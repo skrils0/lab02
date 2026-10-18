@@ -1,0 +1,6 @@
+hello_world
+*.exe
+build/
+*.swp
+.idea/
+.DS_Store
